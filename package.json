@@ -1,6 +1,6 @@
 {
   "name": "try-catches",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "src/index.js",
   "type": "module",
   "devDependencies": {
