@@ -1,13 +1,13 @@
 {
   "name": "try-catches",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "module": "src/index.js",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.8.3"
   },
   "exports": {
     ".": {

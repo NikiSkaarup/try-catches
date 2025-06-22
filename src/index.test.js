@@ -8,7 +8,7 @@ describe("Promise", async () => {
       return val;
     });
 
-    const [data, error] = await tryCatch(mocked);
+    const [_, data] = await tryCatch(mocked);
     expect(data).toBe(val);
     expect(mocked.mock.calls.length).toBe(1);
     tryCatch(mocked);
@@ -23,7 +23,7 @@ describe("Function", () => {
       return val;
     });
 
-    const [data, error] = tryCatch(mocked);
+    const [_, data] = tryCatch(mocked);
     expect(data).toBe(val);
     expect(mocked.mock.calls.length).toBe(1);
     tryCatch(mocked);
